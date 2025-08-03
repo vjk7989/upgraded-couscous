@@ -1,0 +1,29 @@
+{
+  "subTitle": "Ask us anything about our Hyper 0x platform and monetization protocols, and get factual responses.",
+  "faqs": [
+    {
+      "question": "What protocols are included in the Starter Protocol?",
+      "answer": "The Starter Protocol features essential Hyper 0x modules for individual users, including basic RAWs integration, staking capabilities, and access to confidential computing environments. It's a curated selection to help beginners and experienced blockchain users alike start earning from their digital activity."
+    },
+    {
+      "question": "Can I upgrade from the Starter Protocol to the Professional Protocol?",
+      "answer": "Absolutely! You can upgrade to the Professional Protocol at any time to access advanced Hyper 0x features, enjoy priority API support, and receive custom RAWs configurations. Contact our support team for a seamless transition."
+    },
+    {
+      "question": "What revenue sharing opportunities are available through the Professional Protocol plan?",
+      "answer": "Professional Protocol members are entitled to enhanced revenue sharing through custom RAWs configurations, the percentage of which may vary depending on your integration volume and usage patterns. Get in touch with us to discuss your needs, and we'll provide a tailored revenue optimization structure."
+    },
+    {
+      "question": "What kind of technical support can I expect?",
+      "answer": "All our users receive dedicated technical support. With the Starter Protocol, you'll receive our standard support, while the Professional Protocol plan upgrades you to priority support, meaning faster response times and specialized blockchain integration assistance."
+    },
+    {
+      "question": "How current are the API documentation and integration guides?",
+      "answer": "We regularly update our API documentation and integration guides to reflect the latest developments in blockchain technology and Hyper 0x protocol updates. Our material aims to be comprehensive and developer-friendly for all skill levels."
+    },
+    {
+      "question": "Does Buckleson offer enterprise solutions for large-scale blockchain integrations?",
+      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive Hyper 0x integration. We provide consultation, custom protocol development, and full-stack blockchain solutions, as well as dedicated support for substantial DeFi needs. Contact us for a customized quote."
+    }
+  ]
+}

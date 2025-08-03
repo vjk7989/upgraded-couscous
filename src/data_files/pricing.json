@@ -1,0 +1,38 @@
+{
+  "title": "Simple, Transparent Pricing",
+  "subTitle": "Boost earnings with Buckleson's clear, value-driven monetization plans.",
+  "badge": "Best value",
+  "thirdOption": "Enterprise Solutions?",
+  "btnText": "Get a Custom Quote",
+
+  "starterKit": {
+    "name": "Starter Protocol",
+    "description": "Best option for individual users",
+    "price": "0",
+    "cents": ".00",
+    "billingFrequency": "USD / monthly",
+    "features": [
+      "Basic Hyper 0x integration",
+      "Access to RAWs & staking",
+      "Standard support"
+    ],
+    "purchaseBtnTitle": "Start Earning",
+    "purchaseLink": "#"
+  },
+
+  "professionalToolbox": {
+    "name": "Professional Protocol",
+    "description": "Best for enterprise integrations",
+    "price": "299",
+    "cents": ".00",
+    "billingFrequency": "USD / monthly",
+    "features": [
+      "Full Hyper 0x suite access",
+      "Priority support & API access",
+      "Custom RAWs & compute nodes",
+      "Revenue share optimization"
+    ],
+    "purchaseBtnTitle": "Get Professional Access",
+    "purchaseLink": "#"
+  }
+}
