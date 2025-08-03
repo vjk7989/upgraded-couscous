@@ -6,31 +6,30 @@
   "btnText": "Get a Custom Quote",
 
   "starterKit": {
-    "name": "Starter Protocol",
+    "name": "Starter",
     "description": "Best option for individual users",
     "price": "0",
     "cents": ".00",
     "billingFrequency": "USD / monthly",
     "features": [
-      "Basic Hyper 0x integration",
-      "Access to RAWs & staking",
-      "Standard support"
+      "Basic trading",
+      "Ox Pay free tier",
+      "Hyper-Code access"
     ],
     "purchaseBtnTitle": "Start Earning",
     "purchaseLink": "#"
   },
 
   "professionalToolbox": {
-    "name": "Professional Protocol",
+    "name": "Pro",
     "description": "Best for enterprise integrations",
-    "price": "299",
+    "price": "49",
     "cents": ".00",
     "billingFrequency": "USD / monthly",
     "features": [
-      "Full Hyper 0x suite access",
-      "Priority support & API access",
-      "Custom RAWs & compute nodes",
-      "Revenue share optimization"
+      "Unlimited AI agents",
+      "Gold staking",
+      "Confidential compute node"
     ],
     "purchaseBtnTitle": "Get Professional Access",
     "purchaseLink": "#"

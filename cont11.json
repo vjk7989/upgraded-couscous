@@ -1,99 +1,153 @@
 {
-    "company_overview": {
-      "name": "Buckleson",
-      "product": "Hyper 0x",
-      "tagline": "Monetizing User Consumption",
-      "vision": "To turn every user interaction—whether compute, spend, or time—into an earning opportunity using blockchain-native systems.",
-      "mission": "Empower individuals and enterprises with tools that tokenize everyday digital activity into sustainable income streams."
+  "index.astro": {
+    "AnnouncementBanner": {
+      "text": "Introducing Buckleson: powering global monetization via blockchain-native systems."
     },
-  
-    "how_we_work": [
-      "Users interact with Hyper 0x by performing everyday actions—spending, working, computing, or staking.",
-      "Each action is captured by our protocol layers (RAWs, payroll engine, confidential compute, staking modules).",
-      "These layers automatically track, process, and distribute rewards to users based on predefined smart contract rules.",
-      "We use on-chain logic to trigger token flows and revenue splits in real-time, reducing friction and central dependency.",
-      "All data processing happens within decentralized confidential compute environments, preserving privacy and ensuring trust."
-    ],
-  
-    "how_users_earn": [
-      "Spend with integrated services → Get rewarded with cashback in native token or partner tokens.",
-      "Receive salary through blockchain payroll → Automatically stake and earn additional yield.",
-      "Contribute idle compute (laptops, servers) → Run encrypted workloads and earn per cycle.",
-      "Stake native tokens → Receive real, usage-based APY (not inflated token rewards).",
-      "Refer new users or integrate our modules → Earn transaction revenue share through RAWs."
-    ],
-  
-    "products": [
-      {
-        "name": "RAWs (Revenue Allocation Wrappers)",
-        "description": "A programmable protocol that splits and redistributes revenue among contributors, users, partners, and liquidity pools in real time."
-      },
-      {
-        "name": "Blockchain-Led Payroll & Banking",
-        "description": "On-chain payroll automation with integrated tax logic, crypto/fiat conversion, and employee yield-generation on salaries."
-      },
-      {
-        "name": "Staking & Yielding Protocols",
-        "description": "Sustainable yield models backed by actual economic activity: payroll flow, compute usage, and platform fees—not inflation."
-      },
-      {
-        "name": "Decentralized Confidential Computing",
-        "description": "Run private workloads in encrypted compute environments contributed by the community. Pay-per-cycle compute model with privacy by design."
-      },
-      {
-        "name": "HyperToken ($HYP)",
-        "description": "Native utility and reward token backed by protocol revenue and usage. Holders benefit from protocol growth through staking, governance, and liquidity incentives."
-      }
-    ],
-  
-    "revenue_model": {
-      "summary": "Buckleson earns through Hyper 0x by capturing fees from usage, compute cycles, payroll volumes, and B2B integrations.",
-      "distribution": {
-        "platform_fee": "5% of all transactional flows (compute, payroll, revenue split)",
-        "token_sink": "20% of protocol revenue flows into $HYP liquidity pools to support price and reward programs",
-        "developer_rewards": "10% to app and integration partners via RAWs",
-        "operational_reserve": "10% retained for infrastructure and R&D"
+    "HeroSection": {
+      "title": "Monetizing User Consumption",
+      "subtitle": "Hyper 0x – The all-in-one DEX, AI trader, and secure wallet to earn from how you trade, pay, and compute.",
+      "cta": ["Get Early Access", "Explore Products"]
+    },
+    "ClientsSection": {
+      "title": "Trusted by builders across DeFi, HR, and Fintech",
+      "logos": ["Pump.fun", "Radium", "Polygon", "Solana", "Near"]
+    },
+    "FeaturesGeneral": {
+      "heading": "One ecosystem. Many revenue streams.",
+      "points": [
+        "Earn yield by trading meme coins with AI agents.",
+        "Receive blockchain-powered salary payouts with built-in staking.",
+        "Contribute compute and get paid for privacy-first processing."
+      ]
+    },
+    "FeaturesNavs": {
+      "tabs": ["Hyper 0x", "Ox Pay", "Hyper-Gold"],
+      "features": {
+        "Hyper 0x": "A DEX combining AMM + Order Book engines with wallet and AI agents to auto-trade meme trends across platforms like Pump.fun and Radium.",
+        "Ox Pay": "A blockchain-led banking solution with CRM + HRMS to power global payroll, tax, and employee payments with minimal fees.",
+        "Hyper-Gold": "Buy, trade, stake gold backed by real assets. Earn yield while keeping the security of blockchain." 
       }
     },
-  
-    "projections": {
-      "year_1": {
-        "user_base": "100,000+ users",
-        "partner_integrations": "50+ businesses/payroll clients",
-        "revenue_target": "$2M USD",
-        "token_circulation": "25M $HYP in circulation"
-      },
-      "year_2": {
-        "user_base": "500,000+ users",
-        "global_compute_nodes": "10,000+ contributors",
-        "revenue_target": "$15M USD",
-        "TVL": "$50M across staking, payroll, and liquidity"
-      }
+    "TestimonialsSection": {
+      "quotes": [
+        "Using Hyper 0x, we automated meme trades and earned more in 3 days than 3 months of manual trading.",
+        "Ox Pay changed how we pay our international team—faster, cheaper, better."
+      ]
     },
-  
-    "technology_stack": [
-      "Confidential Compute Environments (TEE, FHE, ZK)",
-      "EVM-Compatible Smart Contracts",
-      "Layer-2 Rollups with low gas fees",
-      "Programmable Revenue Routing (RAWs)",
-      "Multi-chain Bridges for user onboarding",
-      "Decentralized Identity & Permissions (DID)"
+    "PricingSection": {
+      "plans": [
+        {"name": "Starter", "price": "$0", "features": ["Basic trading", "Ox Pay free tier", "Hyper-Code access"]},
+        {"name": "Pro", "price": "$49/mo", "features": ["Unlimited AI agents", "Gold staking", "Confidential compute node"]}
+      ]
+    },
+    "FAQ": {
+      "questions": [
+        {"q": "What is Buckleson?", "a": "A blockchain infrastructure company enabling anyone to earn from consumption: trading, spending, compute, payroll."},
+        {"q": "How does Hyper 0x work?", "a": "It connects wallets, AI agents, social trends, and DEXs to execute yield-generating trades automatically."},
+        {"q": "Can I get paid in crypto using Ox Pay?", "a": "Yes, Ox Pay supports on-chain payroll globally."}
+      ]
+    },
+    "HeroSectionAlt": {
+      "title": "Join the Builders of the Monetized Internet",
+      "cta": "Star us on GitHub ↗"
+    }
+  },
+
+  "products/index.astro": {
+    "ProductsHeader": {
+      "title": "Explore the Hyper Ecosystem",
+      "subtitle": "Five products. One mission — Monetize User Activity"
+    },
+    "ProductsGrid": [
+      {
+        "name": "Hyper 0x",
+        "description": "A DEX with wallet and AI trading. Trade meme coins across multiple platforms with best prices and automated agents.",
+        "tags": ["DEX", "AI Trading", "Wallet Integration"]
+      },
+      {
+        "name": "Ox Pay",
+        "description": "Blockchain-led payroll with HRMS and CRM integration. Pay global teams with low fees and yield options.",
+        "tags": ["Payroll", "Blockchain Banking", "HRMS"]
+      },
+      {
+        "name": "Hyper DCC",
+        "description": "Confidential compute for AI training without infra cost. Share compute, earn tokens.",
+        "tags": ["Confidential AI", "Compute Sharing"]
+      },
+      {
+        "name": "Hyper-Code",
+        "description": "No-code agentic web scraper + trader. Build strategies visually and let agents trade on Hyper 0x.",
+        "tags": ["No-Code", "Automation", "AI Agents"]
+      },
+      {
+        "name": "Hyper-Gold (RWA)",
+        "description": "Tokenized gold that you can stake for yield. Real-world asset meets DeFi.",
+        "tags": ["Gold", "RWA", "Staking"]
+      }
     ],
-  
-    "target_users": [
-      "Remote-first teams and global employers needing efficient, crypto-native payroll",
-      "Retail users who want to earn from spending and staking",
-      "Developers building on-chain business models",
-      "Privacy-focused users contributing compute",
-      "Fintech and Web3 apps integrating monetization modules"
+    "FeaturesStatsAlt": {
+      "stats": [
+        {"label": "Protocol Revenue", "value": "$2M+"},
+        {"label": "Global Payroll Volume", "value": "$7.5M"},
+        {"label": "Gold Backed", "value": "100kg+"},
+        {"label": "AI Trades Executed", "value": "95K+"}
+      ]
+    },
+    "TestimonialsSectionAlt": {
+      "quotes": [
+        "Hyper-Code let me trade trends while I slept. Literally.",
+        "Hyper-Gold is my safest DeFi bet — earning yield with a real asset." 
+      ]
+    }
+  },
+
+  "services.astro": {
+    "MainSection": {
+      "title": "Your Partner in Blockchain Integration",
+      "description": "From smart contract design to AI compute to payroll logistics—we help Web3 teams monetize consumption flows with precision."
+    },
+    "ServiceArticles": [
+      {
+        "title": "Custom Strategy & Design",
+        "content": "We assess your product-market fit and integrate Buckleson’s monetization layers where users gain most."
+      },
+      {
+        "title": "Technical Implementation",
+        "content": "Full integration with Hyper 0x, Ox Pay, and Hyper DCC with developer-ready SDKs and n8n pipelines."
+      },
+      {
+        "title": "Post-launch Optimization",
+        "content": "We analyze on-chain performance and optimize staking, compute, and user rewards across chains."
+      }
     ],
-  
-    "differentiators": [
-      "Real yield, not inflationary rewards",
-      "Composable protocols like RAWs usable by any third party",
-      "Confidential computing on-chain for privacy-first monetization",
-      "Payroll + compute + staking in one vertically integrated ecosystem",
-      "Protocol revenue is used to support token utility and value, not just platform growth"
-    ]
+    "FeaturesStats": {
+      "stats": [
+        {"label": "Teams Served", "value": "80+"},
+        {"label": "Integrations", "value": "150+ APIs & Platforms"},
+        {"label": "On-chain Transactions", "value": "12M+"}
+      ]
+    }
+  },
+
+  "contact.astro": {
+    "ContactSection": {
+      "title": "Let’s Build Together",
+      "subtitle": "Get in touch to integrate Hyper 0x, automate your payroll with Ox Pay, or launch compute agents on Hyper DCC.",
+      "fields": ["Name", "Email", "Message"],
+      "cta": "Submit"
+    }
+  },
+
+  "products/[id].astro": {
+    "ProductHero": {
+      "title": "{{ Product Name }}",
+      "subtitle": "Everything you need to trade, earn, or deploy with {{ Product Name }} — a Buckleson product."
+    },
+    "ProductTabs": ["Description", "Specifications", "Blueprints"],
+    "ProductContent": {
+      "description": "Detailed overview of what {{ Product Name }} does and how it fits into the Buckleson ecosystem.",
+      "specs": "Smart contract, wallet, token, or compute specs as applicable.",
+      "blueprints": "Optional UX flows, tokenomics diagrams, or architecture."
+    }
   }
-  
+}

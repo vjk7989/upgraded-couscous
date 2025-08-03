@@ -2,16 +2,16 @@
   "subTitle": "Ask us anything about our Hyper 0x platform and monetization protocols, and get factual responses.",
   "faqs": [
     {
-      "question": "What protocols are included in the Starter Protocol?",
-      "answer": "The Starter Protocol features essential Hyper 0x modules for individual users, including basic RAWs integration, staking capabilities, and access to confidential computing environments. It's a curated selection to help beginners and experienced blockchain users alike start earning from their digital activity."
+      "question": "What is Buckleson?",
+      "answer": "A blockchain infrastructure company enabling anyone to earn from consumption: trading, spending, compute, payroll."
     },
     {
-      "question": "Can I upgrade from the Starter Protocol to the Professional Protocol?",
-      "answer": "Absolutely! You can upgrade to the Professional Protocol at any time to access advanced Hyper 0x features, enjoy priority API support, and receive custom RAWs configurations. Contact our support team for a seamless transition."
+      "question": "How does Hyper 0x work?",
+      "answer": "It connects wallets, AI agents, social trends, and DEXs to execute yield-generating trades automatically."
     },
     {
-      "question": "What revenue sharing opportunities are available through the Professional Protocol plan?",
-      "answer": "Professional Protocol members are entitled to enhanced revenue sharing through custom RAWs configurations, the percentage of which may vary depending on your integration volume and usage patterns. Get in touch with us to discuss your needs, and we'll provide a tailored revenue optimization structure."
+      "question": "Can I get paid in crypto using Ox Pay?",
+      "answer": "Yes, Ox Pay supports on-chain payroll globally."
     },
     {
       "question": "What kind of technical support can I expect?",
