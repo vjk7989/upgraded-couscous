@@ -1,13 +1,13 @@
 ---
-title: "HYP-RAW A765"
-description: "Revenue Allocation Wrapper Protocol" 
+title: "Ox Pay"
+description: "Global Payroll & Banking Platform" 
 main:
   id: 2
   content: |
-    Introducing the HYP-RAW A765 Revenue Allocation Wrapper – the ultimate solution for your blockchain monetization needs. This comprehensive protocol includes a wide variety of revenue distribution mechanisms meticulously curated to tackle various earning strategies with ease and precision.
+    Ox Pay is the future of getting paid. Instead of waiting days for bank transfers and paying high fees, Ox Pay lets companies pay employees worldwide instantly using blockchain technology. Think of it as PayPal, but faster, cheaper, and works everywhere.
   imgCard: "@/images/product-image-2.avif"
   imgMain: "@/images/product-image-main-2.avif"
-  imgAlt: "Blockchain revenue allocation visualization"
+  imgAlt: "Ox Pay blockchain payroll interface"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -19,35 +19,35 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Integration"
 longDescription:
-  title: "Versatile Revenue Distribution Solutions"
+  title: "Pay Anyone, Anywhere, Instantly"
   subTitle: |
-    The HYP-RAW A765 Revenue Allocation Wrapper offers unmatched versatility and convenience, making it the perfect choice for DeFi enthusiasts and blockchain professionals alike. With a comprehensive selection of distribution mechanisms, you'll always have the right protocol for the job.
-  btnTitle: "Contact sales to learn more"
+    Ox Pay solves the biggest problem in global business: slow and expensive international payments. Whether you're paying employees in different countries or sending money to contractors, Ox Pay makes it as easy as sending an email.
+  btnTitle: "Get Started with Ox Pay"
   btnURL: "#"
 descriptionList:
-  - title: "Wide Variety"
-    subTitle: "Includes a diverse range of revenue allocation types and mechanisms to accommodate various applications and tokenomics."
-  - title: "Ease of Integration"
-    subTitle: "Each RAWs module is designed for effortless deployment, ensuring hassle-free monetization every time."
-  - title: "Convenience"
-    subTitle: "Eliminates the need for multiple protocol integrations, saving time and effort on your blockchain projects."
+  - title: "Instant Global Payments"
+    subTitle: "Pay employees anywhere in the world in under 30 seconds. No more waiting days for bank transfers."
+  - title: "All-in-One HR Platform"
+    subTitle: "Manage your entire team from one place - hiring, time tracking, benefits, and payments all integrated."
+  - title: "Automatic Tax Handling"
+    subTitle: "We automatically calculate and handle taxes for different countries, so you don't have to worry about compliance."
 specificationsLeft:
-  - title: "Technology"
-    subTitle: "Built on high-quality smart contracts such as Solidity, ensuring security and gas efficiency."
-  - title: "Functionality"
-    subTitle: "Contains a generous assortment of features, including revenue splitting, staking rewards, and liquidity incentives."
-  - title: "Scalability"
-    subTitle: "Each protocol includes sufficient capacity to handle a wide range of transaction volumes and user bases."
-  - title: "Compatibility"
-    subTitle: "Available across various blockchain networks to suit different project requirements, ensuring interoperability and versatility."
+  - title: "How It Works"
+    subTitle: "Companies deposit funds, set up their team, and Ox Pay handles all the payments automatically every payday."
+  - title: "Payment Options"
+    subTitle: "Employees can receive money in cryptocurrency, traditional currency, or both - their choice."
+  - title: "Bank-Level Security"
+    subTitle: "Your money is protected with the same security standards as major banks, plus blockchain encryption."
+  - title: "Easy Setup"
+    subTitle: "Connect with your existing accounting software and start paying your team in minutes, not weeks."
 tableData:
   - feature: ["Specification", "Value"]
     description:
-      - ["Gas Usage", "Optimized"]
-      - ["Security", "Audited"]
-      - ["Technology", "Solidity"]
-      - ["Network", "Multi-chain"]
-      - ["Package Contents", "Complete RAWs protocol suite"]
+      - ["Transaction Speed", "< 30 seconds"]
+      - ["Fees", "< 1%"]
+      - ["Supported Countries", "150+"]
+      - ["Currencies", "50+"]
+      - ["Compliance", "GDPR, SOC2, PCI DSS"]
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"

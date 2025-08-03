@@ -23,9 +23,9 @@ const product: CollectionEntry<"products">[] = (
 );
 
 // Define variables for page content
-const title: string = "Explore the Hyper Ecosystem";
+const title: string = "The Complete Hyper Ecosystem";
 const subTitle: string =
-  "Five products. One mission — Monetize User Activity";
+  "Five powerful products that work together to help you earn from every digital activity — trading, working, computing, and investing";
 
 // Testimonial data that will be rendered in the component
 const testimonials = [
@@ -33,28 +33,38 @@ const testimonials = [
   {
     content:
       " \"Hyper-Code let me trade trends while I slept. Literally.\" ",
-    author: "Jason Clark",
-    role: "Site Foreman | TopBuild",
+    author: "Alex Chen",
+    role: "DeFi Trader | Crypto Capital",
     avatarSrc:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
-    avatarAlt: "Image Description",
+    avatarAlt: "DeFi Trader",
   },
   // Second testimonial data
   {
     content:
       " \"Hyper-Gold is my safest DeFi bet — earning yield with a real asset.\" ",
-    author: "Maria Gonzalez",
-    role: "Interior Designer | Creative Spaces",
+    author: "Sarah Kim",
+    role: "Blockchain Developer | Web3 Labs",
     avatarSrc:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
-    avatarAlt: "Image Description",
+    avatarAlt: "Blockchain Developer",
+  },
+  // Third testimonial data
+  {
+    content:
+      " \"Ox Pay revolutionized our global payroll — faster, cheaper, and more transparent than traditional banking.\" ",
+    author: "Michael Rodriguez",
+    role: "CTO | Global Tech Solutions",
+    avatarSrc:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
+    avatarAlt: "CTO",
   },
 ];
 
 const pageTitle: string = `Products | ${SITE.title}`;
 const metaDescription =
-  "Explore the durability and precision of ScrewFast tools, designed for both professionals and enthusiasts.";
-const ogTitle = "Hardware Tools | ScrewFast";
+  "Explore the Hyper ecosystem: DEX, AI trading, blockchain payroll, and confidential compute solutions.";
+const ogTitle = "Hyper Ecosystem | Buckleson";
 ---
 
 <MainLayout
@@ -64,17 +74,17 @@ const ogTitle = "Hardware Tools | ScrewFast";
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/products",
-    url: "https://screwfast.uk/products",
-    name: "Hardware Tools | ScrewFast",
+    "@id": "https://buckleson.com/products",
+    url: "https://buckleson.com/products",
+    name: "Hyper Ecosystem | Buckleson",
     description:
-      "Explore the durability and precision of ScrewFast tools, designed for both professionals and enthusiasts.",
+      "Explore the Hyper ecosystem: DEX, AI trading, blockchain payroll, and confidential compute solutions.",
     isPartOf: {
       "@type": "WebSite",
-      url: "https://screwfast.uk",
-      name: "ScrewFast",
+      url: "https://buckleson.com",
+      name: "Buckleson",
       description:
-        "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
+        "Buckleson offers blockchain infrastructure enabling anyone to earn from consumption: trading, spending, compute, payroll.",
     },
     inLanguage: "en-US",
   }}
@@ -116,13 +126,15 @@ const ogTitle = "Hardware Tools | ScrewFast";
   </div>
   {/* Features statistics section */}
   <FeaturesStatsAlt
-    title="Why Choose Buckleson?"
-    subTitle="Transform your ideas into tangible results with Buckleson tools. Whether you're starting with a sketch on a napkin or diving into a comprehensive blockchain project, our tools are engineered to help you build with confidence."
+    title="Why Investors and Users Choose Buckleson"
+    subTitle="We've built a complete ecosystem that generates real revenue from real user activities. Our platform combines the best of DeFi, AI, and traditional finance to create sustainable earning opportunities for everyone."
     benefits={[
-      "Protocol Revenue: $2M+",
-      "Global Payroll Volume: $7.5M",
-      "Gold Backed: 100kg+",
-      "AI Trades Executed: 95K+",
+      "Total Platform Revenue: $2M+",
+      "Global Payroll Processed: $7.5M", 
+      "Physical Gold Backed: 100kg+",
+      "AI Trading Volume: 95K+ trades",
+      "Active Compute Contributors: 10K+",
+      "Successful Trading Strategies: 500+",
     ]}
   />
   {/* Testimonials section */}

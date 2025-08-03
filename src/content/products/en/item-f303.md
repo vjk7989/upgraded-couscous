@@ -1,13 +1,13 @@
 ---
-title: "SF-FN F303"
-description: "Hex Bolts"
+title: "Hyper-Gold (RWA)"
+description: "Digital Gold with DeFi Earnings"
 main:
   id: 4
   content: |
-    Introducing the SF-FN F303 Hex Bolts – the perfect choice for heavy-duty fastening applications. Crafted with precision and durability in mind, these hex bolts provide the strength and reliability you need for your toughest projects.
+    Hyper-Gold combines the safety of physical gold with the earning potential of DeFi. Each digital token represents real gold stored in secure vaults. You can trade it instantly, earn interest by staking it, and even redeem it for physical gold bars.
   imgCard: "@/images/product-image-4.avif"
   imgMain: "@/images/product-image-main-4.avif"
-  imgAlt: "Mockup boxes of hex bolts"
+  imgAlt: "Hyper-Gold tokenized gold interface with staking visualization"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -19,36 +19,45 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Blueprints"
 longDescription:
-  title: "Heavy-Duty Fastening Solutions"
+  title: "The Best of Both Worlds: Gold Safety + DeFi Earnings"
   subTitle: |
-    The SF-FN F303 Hex Bolts are designed to handle the toughest fastening challenges with ease. Whether you're working on construction projects or heavy machinery, these hex bolts deliver the strength and reliability you need.
-  btnTitle: "Contact sales to learn more"
+    Hyper-Gold solves the biggest problem with gold investment: it's hard to trade and doesn't earn interest. Now you can own gold that's easy to trade, earns you money while you hold it, and is backed by real physical gold in secure vaults.
+  btnTitle: "Start Staking Gold"
   btnURL: "#"
 descriptionList:
-  - title: "Strength and Durability"
-    subTitle: "Constructed from high-quality materials, these hex bolts are built to withstand heavy loads and tough conditions."
-  - title: "Precision Engineering"
-    subTitle: "Engineered with precision-cut threads and exact specifications, ensuring a tight and secure fit every time."
-  - title: "Versatility"
-    subTitle: "Suitable for a wide range of applications, from construction to machinery, providing versatile fastening solutions."
+  - title: "Real Gold Backing"
+    subTitle: "Every digital token is backed by real 99.99% pure gold bars stored in secure, insured vaults. You can verify this anytime."
+  - title: "Earn While You Hold"
+    subTitle: "Stake your gold tokens to earn 5-15% interest annually. Your gold keeps growing while staying safe."
+  - title: "Trade Like Crypto"
+    subTitle: "Buy and sell gold instantly, 24/7, with no storage fees or shipping delays. Trade from anywhere in the world."
 specificationsLeft:
-  - title: "Material"
-    subTitle: "Made from premium-grade steel or alloy, offering exceptional strength and corrosion resistance."
-  - title: "Thread Design"
-    subTitle: "Precision-cut threads ensure optimal grip and reliability, even in high-stress environments."
-  - title: "Quantity"
-    subTitle: "Each set includes a sufficient quantity of hex bolts to tackle various projects and applications."
-  - title: "Sizes"
-    subTitle: "Available in a range of sizes to accommodate different project requirements, ensuring versatility and compatibility."
+  - title: "How It Works"
+    subTitle: "Buy digital gold tokens, stake them to earn interest, and trade them anytime. Each token represents real gold you can redeem."
+  - title: "Easy Trading"
+    subTitle: "Trade gold like any cryptocurrency - instantly, 24/7, from anywhere. No need to visit a gold dealer or pay storage fees."
+  - title: "High Interest Rates"
+    subTitle: "Earn 5-15% annual interest on your gold holdings. Traditional gold doesn't pay interest, but Hyper-Gold does."
+  - title: "Physical Redemption"
+    subTitle: "Redeem your digital tokens for real gold bars anytime. We'll ship them to you or store them in secure vaults."
 specificationsRight:
-  - title: "Finish"
-    subTitle: "Finished with a protective coating to enhance corrosion resistance and extend service life."
-  - title: "Load Capacity"
-    subTitle: "Designed to meet or exceed industry standards for load-bearing capacity, ensuring reliable performance under heavy loads."
-  - title: "Certifications"
-    subTitle: "Compliant with relevant industry standards and certifications, guaranteeing quality and reliability."
-  - title: "Applications"
-    subTitle: "Ideal for use in construction, machinery, automotive, and other heavy-duty applications that demand strong and reliable fastening."
+  - title: "Bank-Level Security"
+    subTitle: "Your gold is stored in secure, insured vaults with $100M insurance coverage. Regular audits ensure everything is safe."
+  - title: "Fully Regulated"
+    subTitle: "Compliant with all international gold trading laws. Your investment is protected by proper regulations."
+  - title: "Global Access"
+    subTitle: "Buy and sell gold from anywhere in the world, 24/7. No more waiting for markets to open or dealing with local dealers."
+  - title: "Multiple Ways to Earn"
+    subTitle: "Stake for interest, provide liquidity for trading fees, or participate in yield farming for even higher returns."
+tableData:
+  - feature: ["Specification", "Value"]
+    description:
+      - ["Gold Purity", "99.99% LBMA Standard"]
+      - ["Staking APY", "5% - 15%"]
+      - ["Minimum Stake", "1 gHYP token"]
+      - ["Redemption Fee", "0.5%"]
+      - ["Insurance Coverage", "$100M"]
+      - ["Audit Frequency", "Monthly"]
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"  
