@@ -6,7 +6,7 @@ main:
   content: |
     Hyper DCC lets you earn money by sharing your computer's processing power. When your computer is idle, it helps train AI models and processes data for companies. You get paid in cryptocurrency for every hour your computer works, and your data stays completely private.
   imgCard: "@/images/product-image-3.avif"
-  imgMain: "@/images/product-image-main-3.avif"
+  imgMain: "@/images/product-image-main-3.webp"
   imgAlt: "Hyper DCC confidential compute network visualization"
 tabs:
   - id: "tabs-with-card-item-1"
